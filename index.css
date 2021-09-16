@@ -1,0 +1,96 @@
+.chat-notification {
+    display: flex;
+    max-width: 24rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  .chat-notification-logo-wrapper {
+    flex-shrink: 0;
+  }
+  .chat-notification-logo {
+    height: 3rem;
+    width: 3rem;
+  }
+  .chat-notification-content {
+    margin-left: 1.5rem;
+    padding-top: 0.25rem;
+  }
+  .chat-notification-title {
+    color: #1a202c;
+    font-size: 1.25rem;
+    line-height: 1.25;
+  }
+  .chat-notification-message {
+    color: #718096;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+#container{ /*A box that will contain the entire website for centering purposes*/
+	width:100%; /*The container will try to fill the entire browser window width*/
+	margin:0px auto; /*This line of code is the key.  0px margin top and bottom, auto margin left and right to center*/
+	background-color:rgb(225,225,225);
+	padding:0px;
+	box-sizing:border-box;/*Makes it so that padding does not add to a box's total width*/
+
+	display:flex;
+	flex-wrap:wrap; /*wrap, nowrap, wrap-reverse*/
+	flex-direction:row; /*row, row-reverse, column, column-reverse*/
+	align-content:flex-start; /*flex-start, flex-end, center, stretch, space-between, space around*/
+	align-items:stretch; /*flex-end, center, stretch, baseline*/
+}
+
+#flexarticle{
+	width:100%;
+	background-color:rgb(200,200,200);
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+
+	/*The article needs its own flex properties since it contains sections
+	which will be flexing*/
+	display:flex;
+	flex-wrap:wrap; /*wrap, nowrap, wrap-reverse*/
+	flex-direction:row; /*row, row-reverse, column, column-reverse*/
+	align-content:flex-start; /*flex-start, flex-end, center, stretch, space-between, space-around*/
+	align-items:stretch; /*flex-end, center, stretch, baseline*/
+}
+
+.fullwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:96%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.halfwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:46%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.thirdwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:29.33333333%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.quarterwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:21%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+img{
+	max-width:100%;
+}
