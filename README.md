@@ -1,7 +1,6 @@
 # tailwind-css-demo
-Demo files for Tailwind CSS CDN
 
-Download files for demo
+Download files for Tailwind CSS (CDN install) demo
 
 ### Tailwind Documentation
 
